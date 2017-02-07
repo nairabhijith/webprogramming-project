@@ -29,8 +29,10 @@ input[type=submit]{
 
 form{
 	background-color: white;
-	margin: auto;
-	margin-top: 80px;
+	//position: relative;
+	float: left;
+	//top:5em;
+	//left: 3em;
 	width: 350px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -40,4 +42,20 @@ form{
 body{
 	
 	background-color: #E6DADA;
+	
+}
+
+.box{
+	float: left;
+	margin-left: 10px;
+	
+
+}
+.container{
+	
+	position: relative;
+	display: inline-block;
+	margin-left:190px;
+	margin-top: 80px;
+
 }
