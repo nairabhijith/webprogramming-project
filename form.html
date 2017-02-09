@@ -2,44 +2,44 @@
 <html >
 <head>
 	<title>form</title>
-	<link rel="stylesheet" type="text/css" href="..\wp\style\form.css">
+	<link rel="stylesheet" type="text/css" href="..\wp-simpson-image\style\form.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body >
 	<div class="container">
-			<form action="" method="post">
+			<form  name="myform" action="#" method="post" onsubmit="return validateForm()">
 				<br>
 				Full Name:
 		 		<br>
-				<input type="text" name="name">
+				<input type="text" name="name" required>
 				<br>
 				Username:
 				<br>
-				<input type="text" name="username">
+				<input type="text" name="username"  required>
 				<br>
 				E-Mail: 
 				<br>
-				<input type="email" name="email">
+				<input type="email" name="email"required>
 				<br>
 				Password: 
 				<br>
-				<input type="password" name="pass">
+				<input type="password" name="pass"  required>
 				<br>
 				Confirm Password: 
 				<br>
-				<input type="password" name="confirmpass">
+				<input type="password" name="confirm-pass" required>
 				<br>
 				Mobile No: 
 				<br>
-				<input type="tel" name="mobile">
+				<input type="tel" name="mobile" >
 				<br>
 				<input type="submit" name="submit">
 				<br>
 
 			</form>
 			<div class="box">
-				<img src="..\wp\images\simpson-writing.jpg" alt="simpson-writing.jpg" width="520px" height="465px">
-			</div>
+				<img src="writing.gif" alt="simpson-writing.jpg" width="520px" height="465px">
+
 	</div>		
 
 </body>

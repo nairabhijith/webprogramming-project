@@ -29,10 +29,7 @@ input[type=submit]{
 
 form{
 	background-color: white;
-	//position: relative;
 	float: left;
-	//top:5em;
-	//left: 3em;
 	width: 350px;
 	padding-left: 50px;
 	padding-right: 50px;
