@@ -1,7 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html >
 <head>
-  <body>
-    <a href="form.html" >form</a>
-  </body>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="style\form.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+<body >
+	<div class="container">
+			<form  name="myform" action="#" method="post" onsubmit="return validateForm()">
+				<br>
+				Full Name:
+		 		<br>
+				<input type="text" name="name" required>
+				<br>
+				Username:
+				<br>
+				<input type="text" name="username"  required>
+				<br>
+				E-Mail: 
+				<br>
+				<input type="email" name="email"required>
+				<br>
+				Password: 
+				<br>
+				<input type="password" name="pass"  required>
+				<br>
+				Confirm Password: 
+				<br>
+				<input type="password" name="confirm-pass" required>
+				<br>
+				Mobile No: 
+				<br>
+				<input type="tel" name="mobile" >
+				<br>
+				<input type="submit" name="submit">
+				<br>
+
+			</form>
+			<div class="box">
+				<img src="images\pig-writing.gif" alt="simpson-writing.jpg" width="520px" height="465px">
+
+	</div>		
+
+</body>
 </html>
